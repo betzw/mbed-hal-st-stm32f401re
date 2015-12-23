@@ -50,6 +50,8 @@
 #define DEVICE_SPISLAVE         1
 #define DEVICE_SPI_ASYNCH       1
 
+#define DEVICE_I2S              1
+
 #define DEVICE_RTC              1
 
 #define DEVICE_PWMOUT           1
