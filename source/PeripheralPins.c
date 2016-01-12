@@ -222,3 +222,9 @@ const PinMap PinMap_I2S_FDPX[] = {
      {PB_4,  SPI_3, STM_PIN_DATA(STM_MODE_AF_PP, GPIO_PULLUP, GPIO_AF7_I2S3ext)},
      {NC,    NC,    0}
 };
+
+const PinMap PinMap_I2S_MCLK[] = {
+     {PC_6,  SPI_2, STM_PIN_DATA(STM_MODE_AF_PP, GPIO_PULLUP, GPIO_AF5_SPI2)},
+     {PC_7,  SPI_3, STM_PIN_DATA(STM_MODE_AF_PP, GPIO_PULLUP, GPIO_AF6_SPI3)},
+     {NC,    NC,    0}
+};
