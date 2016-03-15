@@ -55,7 +55,7 @@ channelid_t dma_channel_allocate(uint32_t capabilities) {
 			  __DMA1_CLK_ENABLE();
 		}
 		channel->busy = 1;
-		return (void*)channel;
+		return (channelid_t)channel;
 	}
 }
 
